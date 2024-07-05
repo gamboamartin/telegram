@@ -19,7 +19,8 @@ if (isset($update["message"])) {
 
     // Envía la respuesta usando la API de Telegram
     $token = "7271601067:AAGmQCcQTYGgakvtu7De5RONpYUQgzYj0pY"; // Reemplaza esto con el token de tu bot
-    $url = "https://api.telegram.org/bot$token/sendMessage";
+    //$url = "https://api.telegram.org/bot$token/sendMessage";
+    $url = "https://api.telegram.org/bottoken/setWebhook?url=YOUR_URL/webhook.php";
 
     $data = array(
         'chat_id' => $chat_id,
