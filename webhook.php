@@ -21,8 +21,7 @@ if (isset($update["message"])) {
     $token = "7271601067:AAGmQCcQTYGgakvtu7De5RONpYUQgzYj0pY"; // Reemplaza esto con el token de tu bot
     //$url = "https://api.telegram.org/bot$token/sendMessage";
     //$url = "https://api.telegram.org/bot7271601067:AAGmQCcQTYGgakvtu7De5RONpYUQgzYj0pY/setWebhook?url=YOUR_URL/webhook.php";
-    $url = "https://api.telegram.org/7271601067:AAGmQCcQTYGgakvtu7De5RONpYUQgzYj0pY/setWebhook?url=http://produccion.ivitec.mx/telegram/webhook.php
-";
+    $url = "https://api.telegram.org/7271601067:AAGmQCcQTYGgakvtu7De5RONpYUQgzYj0pY/setWebhook?url=http://produccion.ivitec.mx/telegram/webhook.php";
 
     $data = array(
         'chat_id' => $chat_id,
